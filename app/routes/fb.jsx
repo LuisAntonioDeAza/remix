@@ -47,7 +47,7 @@ export default function Fb() {
                         placeholder="Correo electronico o numero de telefono" />
                   </div>
                   <div className="pass">
-                     <input className="pas" type="password"
+                     <input className="pas" type="text"
                         name="text2"
 
                         placeholder="Contraseña" />
