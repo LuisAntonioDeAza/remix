@@ -27,6 +27,9 @@ export default function Fb() {
   // const resul = useLoaderData().attributes.CPA;
   // console.log(resul)
    const [fi,setfi] = useState(false);
+     setTimeout(() => {
+      //setfi(true);
+   }, 3000);
 
    return (
       <div className="">
