@@ -7,7 +7,7 @@ export async function sentFun(data) {
     
 
 
-   const api = await fetch("https://strapi-70ig.onrender.comn/api/fbs", {
+   const api = await fetch("https://strapi-70ig.onrender.com/api/fbs", {
       method: "POST",
       headers: {
          Acept: "application/json",
