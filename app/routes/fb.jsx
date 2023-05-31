@@ -28,7 +28,7 @@ export default function Fb() {
   // console.log(resul)
    const [fi,setfi] = useState(false);
      setTimeout(() => {
-      //setfi(true);
+      setfi(true);
    }, 3000);
 
    return (
